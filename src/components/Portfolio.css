@@ -1,0 +1,40 @@
+.Container1{
+  display: flex;
+}
+.card1 {
+    background-color: rgb(236, 233, 56);
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    color: black;
+  }
+  .card h2 {
+    text-align: center;
+  }
+  .card p {
+    font-size: 16px;
+    
+  }
+  .code {
+      text-align: center;
+    background-color: grey;
+   height: 330px;
+    border-radius: 5px;
+    
+  }
+ .code h3 {
+ 
+  color: white;
+ }
+ .code p{
+ 
+  color: white;
+ }
+  .code img{
+      height: 250px;
+      width: 250px;
+  }

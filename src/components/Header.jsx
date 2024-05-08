@@ -9,6 +9,7 @@ function Header() {
   <nav>
   <Link to="/">Home</Link>
     <Link to="/Contact">Contact</Link>
+    <Link to="/Portfolio">Portfolio</Link>
     <div className="dropdown">
       <a href="#" style={{ paddingRight: '40px' }}>Courses</a>
       <div className="dropdown-content">

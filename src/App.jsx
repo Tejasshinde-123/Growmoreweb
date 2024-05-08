@@ -7,6 +7,8 @@ import Javafullstack from './components/Javafullstack';
 import Pythons from './components/Pythons'
 import Mern from './components/Mern'
 import Header from './components/Header';
+import Portfolio from './components/Portfolio';
+
 
 
 
@@ -21,6 +23,7 @@ function App() {
      <Route path='/Javafullstack' element={<Javafullstack/>}/>
      <Route path='/Pythons' element={<Pythons/>}/>
      <Route path='/Mern' element={<Mern/>}/>
+     <Route path='/Portfolio' element={<Portfolio/>}/>
      <Route path='/' element={<Mainpage/>}/>
      </Routes>
      </BrowserRouter>
