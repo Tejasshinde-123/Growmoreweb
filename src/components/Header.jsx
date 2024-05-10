@@ -16,6 +16,7 @@ function Header() {
         <Link to="/Javafullstack">Javafullstack</Link>
         <Link to="/Pythons">Python</Link>
         <Link to="/Mern">Mern</Link>
+        <Link to="/Circle">Circle</Link>
       </div>
     </div>
     <a href="#" style={{ color: 'white' }}><button>About Us</button></a>

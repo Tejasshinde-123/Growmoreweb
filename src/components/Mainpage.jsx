@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook,  faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { FaWhatsapp } from 'react-icons/fa';
  
 function Mainpage() {
   return (
@@ -41,6 +42,7 @@ function Mainpage() {
             <i style={{ paddingLeft: '130px' }} className="fa"><FontAwesomeIcon icon={faEnvelope} /></i>
             <FontAwesomeIcon icon={faFacebook} />
              <i><FontAwesomeIcon icon={faWhatsapp} /></i>
+                <h3>  <FaWhatsapp /></h3>
             
           </div>
           <div className="links">

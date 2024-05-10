@@ -8,6 +8,9 @@ import Pythons from './components/Pythons'
 import Mern from './components/Mern'
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
+import Circle from './components/Circle';
+import Try from './components/Try'
+
 
 
 
@@ -24,7 +27,10 @@ function App() {
      <Route path='/Pythons' element={<Pythons/>}/>
      <Route path='/Mern' element={<Mern/>}/>
      <Route path='/Portfolio' element={<Portfolio/>}/>
+     <Route path='/Circle' element={<Circle/>}/>
+     <Route path='/Try' element={<Try/>}/>
      <Route path='/' element={<Mainpage/>}/>
+     
      </Routes>
      </BrowserRouter>
     </div>
