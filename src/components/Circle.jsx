@@ -28,11 +28,11 @@ const Circle = () => {
     <div className="container">
       <div className="circle" id="circle">
         <div className="course">
-        <Link to="/Try"> <i><FaReact /></i></Link>
+        <i><FaReact /></i>
          
         </div>
         <div className="course">
-          <i ><FaHtml5 /></i>
+        <i ><FaHtml5 /></i>
         </div>
         <div className="course">
           <i><FaCss3Alt /></i>
@@ -44,7 +44,7 @@ const Circle = () => {
           <i><FaJava /></i>
         </div>
         <div className="course">
-          <i><FaPython /></i>
+         <Link to='/Pythons'><i><FaPython /></i></Link> 
         </div>
         <div className="course">
           <i><SiDatabricks /></i>

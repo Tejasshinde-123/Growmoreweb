@@ -35,7 +35,7 @@ function Portfolio() {
         </div>
       </div>
     </div>
-
+     <div className="text">J <br />U <br /> S <br /> T</div>
 
 <div className="flip-card">
 <div className="flip-card-inner">
@@ -101,7 +101,7 @@ function Portfolio() {
         </div>
       </div>
     </div>
-
+    <div className="text">H <br />O <br /> V <br /> E <br /> R </div>
 
 <div className="flip-card">
 <div className="flip-card-inner">

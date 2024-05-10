@@ -5,20 +5,12 @@ function Header() {
   return (
     <>
       <header className="">
-<img src="/pics/logo.webp" alt="" />
+    <img  className='newlogo' src="/pics/newlogo.png" alt="" />
   <nav>
   <Link to="/">Home</Link>
     <Link to="/Contact">Contact</Link>
     <Link to="/Portfolio">Portfolio</Link>
-    <div className="dropdown">
-      <a href="#" style={{ paddingRight: '40px' }}>Courses</a>
-      <div className="dropdown-content">
-        <Link to="/Javafullstack">Javafullstack</Link>
-        <Link to="/Pythons">Python</Link>
-        <Link to="/Mern">Mern</Link>
-        <Link to="/Circle">Circle</Link>
-      </div>
-    </div>
+    <Link to="/Circle">Courses</Link>
     <a href="#" style={{ color: 'white' }}><button>About Us</button></a>
   </nav>
 </header>
