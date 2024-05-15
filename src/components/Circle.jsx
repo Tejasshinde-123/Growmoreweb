@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './Circle.css'
+import CourseList from './CourseList';
 import { Link } from 'react-router-dom'
 import { FaReact,FaHtml5,FaCss3Alt,FaNodeJs,FaJava,FaPython ,FaAngular} from 'react-icons/fa';
 import {SiDatabricks,SiMongodb} from 'react-icons/si';
@@ -25,7 +26,11 @@ const Circle = () => {
   }, []);
 
   return (
+     
+      <>
+      
     <div className="container">
+      <div className="filelist"><CourseList/></div>
       <div className="circle" id="circle">
         <div className="course">
         <i><FaReact /></i>
@@ -63,6 +68,7 @@ const Circle = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

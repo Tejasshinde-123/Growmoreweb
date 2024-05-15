@@ -1,14 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fcfafc;
-    margin: 0;
-    padding: 0;
-  }
+.container body {
+  background-color: rgb(59, 248, 138);
+}
 
   .container {
-    max-width: 800px;
+   display: flex;
     margin: 50px auto;
     text-align: center;
+    justify-content: space-around;
+    
   }
 
   .circle {
@@ -17,7 +16,12 @@ body {
     border-radius: 50%;
     background-color: #f3f1f3;
     animation: rotateCircle 20s linear infinite; 
-    margin-left: 400px;
+    
+   
+    background-image: url("./pics/2927262.jpg");
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
    
    
   }
@@ -86,7 +90,7 @@ body {
   }
   .container .course:nth-child(9) {
     background-color: grey;
-    color: rgb(247, 93, 5);
+    color: rgb(12, 207, 241);
   }
   .container .course:nth-child(10) {
     background-color:rgb(241, 226, 8);

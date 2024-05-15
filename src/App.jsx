@@ -10,6 +10,7 @@ import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Circle from './components/Circle';
 import Try from './components/Try'
+import CourseList from './components/CourseList';
 
 
 
@@ -18,7 +19,8 @@ import Try from './components/Try'
 function App() {
   return (
     <div>
-     <BrowserRouter>
+     
+     { <BrowserRouter>
      <Header/>
      <Routes>
       <Route path='/Header' element={<Header/>}/>
@@ -29,10 +31,11 @@ function App() {
      <Route path='/Portfolio' element={<Portfolio/>}/>
      <Route path='/Circle' element={<Circle/>}/>
      <Route path='/Try' element={<Try/>}/>
+     <Route path='/CourseList' element={<CourseList/>}/>
      <Route path='/' element={<Mainpage/>}/>
      
      </Routes>
-     </BrowserRouter>
+     </BrowserRouter> }
     </div>
   );
 }
