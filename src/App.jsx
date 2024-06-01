@@ -11,6 +11,7 @@ import Portfolio from './components/Portfolio';
 import Circle from './components/Circle';
 import Try from './components/Try'
 import CourseList from './components/CourseList';
+import CarouselComponent from './components/Carasol/CarouselComponent';
 
 
 
@@ -22,6 +23,7 @@ function App() {
      
      { <BrowserRouter>
      <Header/>
+     
      <Routes>
       <Route path='/Header' element={<Header/>}/>
      <Route path='/Contact' element={<Contact/>}/>

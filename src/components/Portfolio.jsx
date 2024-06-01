@@ -1,9 +1,12 @@
 import React from 'react';
-import './Portfolio.css'; // Import your CSS file if you have one
+import './Portfolio.css'; 
+import { Link } from 'react-router-dom'
+import CarouselComponent from './Carasol/CarouselComponent';
 
 function Portfolio() {
   return (
     <>
+    <div ><CarouselComponent/></div>
     <div className="all">
     <div className='uppercards'>
     <div className="flip-card">
@@ -135,6 +138,8 @@ function Portfolio() {
 </div>
 </div>
 </div>
+
+
 </>
   );
 }
